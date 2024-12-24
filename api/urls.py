@@ -9,8 +9,8 @@ from stocks.viewsets.article_viewsets import ArticleViewSet
 from stocks.viewsets.intrant_viewsets import IntrantViewSet
 from stocks.viewsets.providers_viewsets import ProviderViewSet
 from stocks.viewsets.product_type_viewsets import ProductTypeViewSet
-
-
+from users.viewsets.user_viewsets import UserViewSet
+from stocks.viewsets.product_viewset import ProductViewSet
 
 
 
@@ -33,6 +33,8 @@ router.register(r'article', ArticleViewSet)
 router.register(r'intrant', IntrantViewSet)
 router.register(r'product type', ProductTypeViewSet)
 router.register(r'provider', ProviderViewSet)
+router.register(r'users', UserViewSet)
+router.register(r'produits', ProductViewSet) 
 
 
 urlpatterns = [

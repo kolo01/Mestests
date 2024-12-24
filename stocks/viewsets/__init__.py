@@ -2,3 +2,4 @@ from .article_viewsets import ArticleSerializer
 from .intrant_viewsets import IntrantSerializer
 from .product_type_viewsets import ProductTypeSerializer
 from .providers_viewsets import ProviderSerializer
+from .product_viewset import ProductViewSet

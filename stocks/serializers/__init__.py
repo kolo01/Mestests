@@ -2,3 +2,4 @@ from .article_serializers import ArticleSerializer
 from .intrant_serializers import IntrantSerializer
 from .product_type_serializers import ProductTypeSerializer
 from .providers_serializers import ProviderSerializer
+from .product_serializers import ProductSerializer
